@@ -1,0 +1,4 @@
+.sohub-claude-plugin/
+node_modules/
+dist/
+server/dist/

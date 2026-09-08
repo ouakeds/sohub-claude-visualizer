@@ -1,0 +1,28 @@
+{
+  "name": "sohub-claude-visualizer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tableau de bord local, en lecture seule, sur les runs Claude Code.",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p server/tsconfig.json && vite build --config web/vite.config.ts",
+    "start": "node server/dist/server/src/index.js",
+    "dev": "vite --config web/vite.config.ts"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "vue": "^3.5.42"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.4.1",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "autoprefixer": "^10.5.5",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2"
+  }
+}
